@@ -1,0 +1,319 @@
+
+
+body { 
+  background: url("../bg-pic/benz2.jpg") center center fixed;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url("../bg-pic/benz2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+
+/*----------------------- Navbar ----------------*/
+
+.navbar-brand-icon {
+    color: #fafafa;
+    font-family: "Noto Serif", sans-serif;
+    margin-top: 5px;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.a-v-brand-logo {
+    height: 40px;
+    width: 60px
+}
+
+.navbar-brand-icon:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+
+.bg-dark-transparant-bg {
+    background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+.nav-link-text {
+    margin-right: 90px;
+    color: #fff;
+}
+
+.nav-link-text:hover {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    color: #fff;
+    background-color: #4682B4;
+    border: 0;
+}
+
+.navbar-toggler-icon {
+    color: #000;
+}
+
+.dropdown-menu {
+    background-color: #C0C0C0;
+    max-width: 100px;
+}
+
+.dropdown-item {
+    color: #000;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.navbar-nav {
+    margin: auto auto;
+    justify-content: center;
+}
+
+/*-----------------------logos ----------------*/
+
+.media {
+    padding-right: 40px;
+    display: inline-block;
+}
+
+.logo-container {
+    text-align: center;
+    display: inline-block;
+    zoom: 1;
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 780px) {
+  .logo-container {
+    display: none;
+  }
+}
+
+.logo-image-round {
+    height: 55px;
+    width: 55px;
+}
+
+.logo-img-cont {
+    margin-right: 55px;
+    text-align: center;
+}
+
+
+/*----------------------- Jumbotron ----------------*/
+
+.jumbotron {
+    font-family: "Noto Serif", sans-serif;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 4rem 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+
+.page-divider {
+    width: 80%;
+    height: 2px;
+    color: #fff;
+    position: relative;
+    z-index: 9999;
+}
+
+.history-header {
+    font-family: "Roboto Condenced", sans-serif;
+    color: #fff;
+}
+
+.btn-info {
+    background-color: #4682B4;
+    margin-top: 5px;
+    
+    
+}
+
+.btn-info:hover {
+   background-color: #4682B4;
+}
+
+
+.btn-global {
+    color: #fff;
+}
+
+.btn-global:hover {
+   text-decoration: none;
+   color: #fff;
+}
+
+.callout {
+    padding-top: 1rem;
+}
+
+.table-dark {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tr-line {
+    margin: 25px 35px;
+}
+
+.rates-text {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-family: "Noto Serif", sans-serif;
+}
+
+/*-------------------------------------Rates-------------------*/
+
+.rates-main-cont {
+    justify-content: center;
+}
+
+/*--------------------------------------Reviews------------------*/
+
+.review-img {
+    width: 84px;
+    height: 84px;
+}
+
+.review-text {
+    color: #fff;
+}
+
+.reviews-cont {
+    margin-top: 60px;
+}
+/*-------------------------------------Footer-------------------*/
+
+.nav-link-footer {
+    color: #000;
+    margin-right: 70px;
+}
+
+.bg-light {
+    height: 65px;
+}
+
+@media only screen and (max-width: 991px) {
+  .footer-container {
+    display: none;
+}
+
+}
+
+footer {
+    background-color: rgba (255,255,255,1); 
+    min-height: 80px;
+    margin-top: 100px;
+}
+
+.col-sm-4 {
+    padding: 15px 15px;
+    text-align: center;
+    display: block;
+}
+.social-links {
+    padding-bottom: 15px;
+}
+
+.general-subtext {
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+/*-------------------------------------contact page-------------------*/
+
+.modal-body-contact {
+    background-color: rgba (0, 0, 0, 0.5);
+}
+
+.contact-form {
+    margin-top: 50px;
+}
+
+.contact-text {
+    margin: 5px 0px;
+    color: #fff;
+}
+
+.contact-head {
+    color: #fff;
+}
+
+.col-md-4 {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 780px) {
+  .col-md-8, .col-d-none {
+    display: none;
+}
+
+}
+
+
+    
+/*-------------------------------------Reviews-------------------*/
+
+.reviews-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: none;
+}
+
+.review-ex {
+    font-family: "Noto Serif", sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.review-etc {
+    margin-top: 25px;
+}
+
+.reviews-cont {
+    justify-content: center;
+    text-align: center;
+}
+/*-------------------------------------Inventory-------------------*/
+
+.card-container {
+   margin: auto auto;
+}
+
+.main-inventory {
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    width: 100%
+}
+
+.card-text  {
+    color: #fff;
+}
+
+.card-img-top-invent {
+    width: 400px;
+    height: 250px;
+}

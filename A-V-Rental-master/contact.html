@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Condensed&display=swap">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<title>Contact us</title>
+</head>
+
+<body>
+
+	<!------------------------------------------------------------------Nav Items-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark-transparant-bg">
+					<a class="navbar-brand-icon" href="./index.html">A&V Rental</a>
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto active">
+							<li class="nav-item">
+								<a class="nav-link-text active" href="#" target="_blank" data-toggle="modal"
+									data-target="#search">Rent</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link-text active" href="./contact.html" target="_blank">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link-text active" href="./inventory.html">Inventory</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link-text dropdown-toggle active" href="#" id="navbarDropdown"
+									role="button" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">Countries</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item hvr-grow" href="#">Sweden</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item hvr-grow" href=" #">Irland</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item hvr-grow" href=" #">Norway</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item hvr-grow" href=" #">Denmark</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item hvr-grow" href=" #">U.S.A</a>
+								</div>
+							</li>
+						</ul>
+						<button class="btn btn-info login-button hvr-grow" data-toggle="modal" data-target="#loginmodal">Sign In</button>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!--Logos--------------------------------------------------->
+	<div class="container-fluid logo-container">
+		<div class="row">
+			<div class="col-12">
+				<div class="media">
+					<a class="logo-img-cont" href="./inventory.html"
+						target="_blank"><img src="./assets/logos/benz.jpg" class="logo-image-round mr-2 rounded-circle hvr-grow"></a>
+						<a class="logo-img-cont" href="./inventory.html"
+							target="_blank"><img src="./assets/logos/mazda.jpg" class="logo-image-round mr-2 rounded-circle hvr-grow"></a>
+							<a class="logo-img-cont" href="./inventory.html"
+								target="_blank"><img src="./assets/logos/nissan.jpg" class="logo-image-round mr-2 rounded-circle hvr-grow"></a>
+								<a class="logo-img-cont" href="./inventory.html"
+									target="_blank"><img src="./assets/logos/tesla.jpg" class="logo-image-round mr-2 rounded-circle hvr-grow"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------Contact Form--------------------------------------->
+
+	<div class="container contact-form">
+		<div class="row contact-main">
+			<div class="col-md-4 col-sm-8">
+				<div class="modal-body-contact">
+					<form>
+						<h4 class="contact-head"> Contact Us! </h4>
+						<p class="contact-text"> For sales questios: 008-4536-1123</p>
+						<p class="contact-text"> For services: 008-459-00965</p>
+						<p class="contact-text"> For any other inqueries leave your E-mail <br>
+                                or phone number so we can contact you.</p>
+							<div class="form-group">
+								<label class="contact-text" for="phone">Phone Number</label>
+								<input type="email" class="form-control" id="phone-contact" aria-describedby="emailHelp">
+                            </div>
+								<div class="form-group">
+									<label class="contact-text" for="email">E-mail Address</label>
+									<input type="email" class="form-control" id="email-contact">
+                                </div>
+									<div class="form-group">
+										<label class="contact-text" for="comments">Additional Comments</label>
+										<input type="email" class="form-control" id="comments-contact">
+                                    </div>
+										<button type="submit" class="btn btn-info">Submit</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-8 col-d-none">
+				<div class="card-contact">
+					<img src="./assets/logos/map.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title contact-text"></h5>
+						<p class="card-text contact-text">Our main office is located near the Dublin Zoo:
+							<br> 9M4V+FV Dublin 8, Dublin, Ireland </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------------------------------------Log In--------------------------->
+	<div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Log In</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="email-login" aria-describedby="email-login" requiered>
+							<small id="email-login" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password-login">
+                            </div>
+							<button type="submit" class="btn btn-info">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------------------------------------Footer--------------------------------------->
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<p class="general-subtext">Legal<p>
+						<p class="general-subtext">Services</p>
+						<p class="general-subtext">Models</p>
+						<p class="general-subtext">Locations</p>
+			</div>
+			<div class="col-sm-4">
+				<p class="general-subtext">Careers</p>
+				<p class="general-subtext">Corporate Site</p>
+				<p class="general-subtext">Book an appointment: 008-46467-3232</p>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<br>
+					<p class="general-subtext"><small>Copyright @ 2020 A&V Inc. All rights reserved</small></p>
+			</div>
+			<div class="col-sm-4">
+				<p class="general-subtext">Lease</p>
+				<p class="general-subtext">Become a Partner</p>
+				<p class="general-subtext">About A&V</p>
+				<p class="general-subtext">Account</p>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!----------------------------------------------------------------------Contact----->
+	<div class="modal" tabindex="-1" role="dialog" id="contact">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Contact Us!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<p> For sale questios: 008-4536-1123</p>
+						<p> For services: 008-459-00965</p>
+						<p> For any other inqueries leave your E-mail <br>
+                                or phone number so we can contact you.</p>
+							<div class="form-group">
+								<label for="phone">Phone Number</label>
+								<input type="email" class="form-control" id="phone" aria-describedby="emailHelp">
+                            </div>
+								<div class="form-group">
+									<label for="email">E-mail Address</label>
+									<input type="password" class="form-control" id="email">
+                            </div>
+									<div class="form-group">
+										<label for="comments">Additional Comments</label>
+										<input type="password" class="form-control" id="comments">
+                            </div>
+										<button type="submit" class="btn btn-info contact-submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----------------------------------------------------------------------Search Inventory----->
+	<div class="modal" tabindex="-1" role="dialog" id="search">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Search Inventory</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="make">Make</label>
+							<input type="email" class="form-control" id="make" aria-describedby="emailHelp">
+                            </div>
+							<div class="form-group">
+								<label for="model">Model</label>
+								<input type="password" class="form-control" id="model">
+                            </div>
+								<div class="form-group">
+									<label for="capacity">Capacity</label>
+									<input type="password" class="form-control" id="capacity">
+                            </div>
+									<button type="submit" class="btn btn-info">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------------------------------------Account Creation--------------------------->
+
+
+	<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Creat Account</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password">
+                            </div>
+							<div class="form-group">
+								<label for="repeatPassword">Repeat Password</label>
+								<input type="password" class="form-control" id="repeatPassword">
+                            </div>
+								<button type="submit" class="btn btn-info">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
