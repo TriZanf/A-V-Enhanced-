@@ -109,16 +109,11 @@
 					</form>
 				</div>
 			</div>
-			<div class="col-md-8 col-d-none">
-				<div id="map" class="card-contact">
-					<img src="./assets/logos/map.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title contact-text"></h5>
-						<p class="card-text contact-text">Our main office is located near the Dublin Zoo:
-							<br> 9M4V+FV Dublin 8, Dublin, Ireland </p>
-					</div>
+			
+				<div id="map">
+					
+					
 				</div>
-			</div>
 		</div>
 	</div>
 
@@ -306,9 +301,17 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
 </body>
-
- <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
-    </script>
+<script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 3,
+            center: {
+                lat: 53.3562,
+                lng: 6.3053
+            }
+        });
+    }
+ <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1aOdxoQDRW8uZfMhxNKUsbp_jmUOvjZo&callback=initMap">
     </script>
